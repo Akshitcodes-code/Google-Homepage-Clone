@@ -1,127 +1,50 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    color: black;
 }
 
-body {
-    font-family: Arial, sans-serif;
+.navbar{
+    height: 60px;
+    background-color: white;
 }
 
-/* Header */
-.header {
-    padding: 15px 20px;
-    overflow: hidden;
-}
-
-#header-left {
-    float: left;
-}
-
-#header-right {
-    float: right;
-}
-
-.header a {
+a{
     text-decoration: none;
-    color: #333;
-    margin-right: 15px;
-    font-size: 14px;
+    padding:20px
 }
 
-.header a:hover {
-    text-decoration: underline;
+.items{
+    font: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
-#sign-in-btn {
-    background-color: #1a73e8;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-#sign-in-btn:hover {
-    background-color: #1558b0;
-    text-decoration: none;
-}
-
-/* Center Content */
-#Main-center {
-    text-align: center;
-    margin-top: 120px;
-}
-
-#google-Heading {
-    width: 270px;
-    height: auto;
-    margin-bottom: 25px;
-}
-
-/* Search Box */
-.search-box input {
-    width: 500px;
-    max-width: 90%;
-    padding: 12px 20px;
-    border: 1px solid #dfe1e5;
-    border-radius: 25px;
-    font-size: 16px;
-    outline: none;
-}
-
-.search-box input:hover,
-.search-box input:focus {
-    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
-    border-color: transparent;
-}
-
-/* Buttons */
-.buttons {
-    margin-top: 20px;
-}
-
-.buttons button {
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    color: #3c4043;
-    padding: 9px 16px;
-    margin: 5px;
-    font-size: 14px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.buttons button:hover {
-    border: 1px solid #dadce0;
-    color: #202124;
-}
-
-/* Footer */
-footer {
-    position: fixed;
-    bottom: 0;
+.main-section{
+    height: 170px;
     width: 100%;
-    background-color: #f2f2f2;
-    padding: 15px 20px;
-    border-top: 1px solid #dadce0;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#footer-left {
-    float: left;
+#google-logo {
+    height: 92px;
+    width: 272px;
 }
 
-#footer-right {
-    float: right;
-}
-
-footer a {
-    text-decoration: none;
-    color: #70757a;
-    margin-right: 15px;
-    font-size: 14px;
-}
-
-footer a:hover {
+a:hover{
+    color:blue;
     text-decoration: underline;
+}
+
+.main-section{
+    flex-direction:column;
+}
+
+.search-container{
+    
 }
